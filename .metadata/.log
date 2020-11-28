@@ -292,3 +292,108 @@ Binding(ALT+CTRL+ARROW_RIGHT,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:33:41.188
 !MESSAGE executing callback sts4.classpath.SrXMCrHr SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:44:25.108
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:44:25.111
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:44:25.113
+!MESSAGE buffering callback sts4.classpath.SrXMCrHr Calculator false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:44:25.114
+!MESSAGE executing callback sts4.classpath.SrXMCrHr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 00:44:25.125
+!MESSAGE executing callback sts4.classpath.SrXMCrHr SUCCESS [終了しました]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-11-29 00:55:46.629
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-11-29 00:56:40.232
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.307
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.311
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.525
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.527
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.529
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.532
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.534
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.536
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.539
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.540
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.585
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:06:39.586
+!MESSAGE リソース '/Basic/src/String/String.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.642
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.644
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.648
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.648
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.727
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2020-11-29 01:11:18.730
+!MESSAGE リソース '/Basic/src/String/sampleString.java' が存在しません。
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 01:11:45.464
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SrXMCrHr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 01:11:45.467
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SrXMCrHr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 01:11:45.471
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 01:11:45.474
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SrXMCrHr => OK
