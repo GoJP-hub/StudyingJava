@@ -3,12 +3,18 @@ package action;
 import java.util.ArrayList;
 
 import module.CalculationModule;
+import module.InputProcessModule;
 
 public class CalculatorAction {
 	public static void main(String[] args) {
 		CalculationModule calc = new CalculationModule();
-		//branch feature/./3
-		//calling normal ArrayList and inserting value
+
+		//inserted during feature/calc/4
+		//[issue] without calling a method of the instance, the br and ip does not get triggered
+		InputProcessModule ip = new InputProcessModule();
+		ArrayList<String> input = ip.keyInput();
+
+
 		ArrayList<String> list = new ArrayList<String>();
 		list = calc.addValue(list, "10", "+");
 		System.out.println(list.get(0));
