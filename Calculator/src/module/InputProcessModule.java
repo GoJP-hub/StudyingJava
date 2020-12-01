@@ -13,21 +13,61 @@ public class InputProcessModule {
 
 		//変数各種
 		ArrayList<String> list = new ArrayList<String>();
-		String str = "";
 
-		//キーボードの受付-現段階では、Breakで無限ループを離脱
+		//branch feature/./5
+		//designed to insert number first, then keys by conditioning
+		String consoleKey = "";
+		int mode = 1;
+		boolean equalFlg = false;
+
 		while (true) {
-			System.out.println("Please type number");
 
 			try {
-				//記入事項をstr変数に格納
-				str = br.readLine();
-				System.out.println("Inserted value is: " + str);
+				if(mode == 1) {
+					System.out.println("Please type number");
+					consoleKey = br.readLine();
+					System.out.println("Inserted value is: " + consoleKey);
+
+					mode = 2;
+				}else if(mode == 2) {
+
+					System.out.println("Please type key");
+					consoleKey = br.readLine();
+					System.out.println("Inserted key is: " + consoleKey);
+
+					equalFlg = checkKey(consoleKey);
+
+					mode = 1;
+				}
+
+				list.add(consoleKey);
+
+				if(equalFlg) {
+					break;
+				}
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			break;
 		}
 		return list;
+	}
+
+	//branch feature/./5
+	//added assertion to check whether it is equal
+	public boolean checkKey(String key) {
+		boolean checkFlg = false;
+		switch (key) {
+		case "=":
+			checkFlg = true;
+			break;
+		case "+":
+		case "-":
+		case "*":
+		case "/":
+			break;
+		default:
+			System.out.println("please enter the key: +, -, *, /, =");
+		}
+		return checkFlg;
 	}
 }
