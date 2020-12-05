@@ -4,7 +4,7 @@ package sampleInterface;
  * Java入門コースインターフェース説明クラス.<br>
  * Lightningクラス
  */
-public class InterfaceSample_Lightning implements DataInterface, ChageInterface {
+public class InterfaceSample_Lightning implements DataInterface, ChargeInterface {
 
 	private String  data   = "";	// データ格納用変数
 	private boolean isReal = false;	// 判定フラグ
